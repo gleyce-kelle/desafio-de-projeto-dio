@@ -27,3 +27,35 @@ Este repositório contém anotações relacionadas aos desafios de projetos elab
 - Na aba de Iniciar execução, é possível adicionar entradas adicionais (opcional).
 - Clicar em `Iniciar execução`;
 - Após iniciada a execução, é possível consultar o `Event view` e `State view`.
+
+## Desafio de Projeto: Trabalhando com Machine Learning na Prática no Azure ML 
+
+Tudo que é possível ter em um ambiente on premise, é possível ter em um ambiente em nuvem.
+
+### Serviços de IA no Microsoft Azure
+- Aprendizado de Máquina Azure: uma plataforma para treinar, implantar e gerenciar modelos de aprendizado de máquina
+- Serviços de IA do Azure: um conjunto de serviços que abrange visão, fala, linguagem, decisão e IA generativa
+- Pesquisa Cognitiva do Azure: Extração, enriquecimento e indexação de dados para pesquisa inteligente e mineração de conhecimento.
+
+### Criando maáquinas virtuais no Azure
+
+- Acessar o dashboard do Microsoft Azure;
+- Clicar em `Criar um recurso` e pesquisar por Machine Learning;
+- Clicar em `Create` e preencher as informações necessárias (Subscription, resource group, name – que deve ser único –, region, stoarage account, key vault, application insights, container registry);
+- Clique em `Review + Create`;
+- Ao abrir o recurso, clique em `Launch Studio` que irá redirecionar para a página ml.azure.com;
+- Na barra lateral, ir na opção `ML automatizado` e clicar em `Novo trabalho de ML automatizado`;
+- Preencher as informaçãoes para criar ativo de dados;
+
+### Pontos de Extremidade do Azure
+O Azure oferece dois tipos de pontos de extremidade para acessar compartilhamentos de arquivos do Azure:
+- Pontos de extremindade públicos: têm endereço IP público e podem ser acessados de qualquer lugador do mundo;
+- Pontos de extremidade privados: existem em uma rede virtual e têm um endereço de IP privado dentro do espaço de endereço dessa rede virtual.
+
+Pontos de extremidade públicos e privados existem na conta de armazenamento do Azure. 
+
+#### Links úteis:
+
+- [Configurar pontos de extremidade de rede para acessar compartilhamentos de arquivos do Azure](https://learn.microsoft.com/pt-br/azure/storage/files/storage-files-networking-endpoints?tabs=azure-portal)
+- [Explore Azure AI Services](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/02-content-safety.html)
+- [Explore Automated Machine Learning in Azure Machine Learning](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01-machine-learning.html)
