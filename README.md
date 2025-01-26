@@ -81,5 +81,6 @@ O serviço Azure AI Vision dá acesso à algoritmos avançados que processam ima
 - Clicar em `Criar um recurso` e pesquisar por Azure AI Services;
 - Clicar em `Create` e preencher as informações necessárias (subscription, resource group, region, name, pricing tier);
 - Clicar em `Review + Create`;
-- Acessar o portal do [Vision Studio](http://portal.vision.cognitive.azure.com)
-- Acessar `My resources`
+- Acessar o portal do [Vision Studio](http://portal.vision.cognitive.azure.com);
+- Acessar `My resources`;
+- Selecionar o recurso que foi criado e clicar em `Select as default resource`.
