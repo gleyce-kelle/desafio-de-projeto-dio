@@ -114,4 +114,48 @@ O Language Studio é um conjunto de ferramentas baseadas em interface de usuári
 - Filtre pela aba `Classify text` e selecione `Analyze sentiment and mine opinions`;
 - Comece a realizar os testes com texto. 
 
+## Desafio de Código: Azure Cognitive Search: Utilizando AI Search para indexação e consulta de dados 
+Mineração de conhecimento: encontra insights em escala, como palavras-chave, frases-chave etc.;
+O Azure Cognitive Search é a plataforma de mineração de conhecimento alimentada por IA do Azure;
 
+### Soluções de pesquisa cognitiva do Azure
+Ingestão de dados
+- Azure Blob Storage containers;
+- Azure Data Lake Storage Gen2;
+- Azure Table Storage.
+
+Enriquecimento e índice de IA
+- Permite uma compreensão mais profunda;
+- Visão, Processamento de Linguagem Natural etc;
+- A indexação torna o conteúdo pesquisável.
+
+Explorar
+- Pesquisa realizada em índices;
+- Dentro dos aplicativos;
+- Crie visualizações de dados.
+
+### Passo a passo no portal
+- Acesse o dashboard do Azure;
+- Clique em `AI Search`;
+- Clique em `Create` e preencher as informações necessárias (subscription, resource group, region, name, pricing tier: nível Basic);
+- Clique em `Review + Create`;
+- Clique em `Create a resource` e em `Azure AI Services`
+- Clique em criar `Create` e preencha as informações (subscription, resource group, region, name, pricing tier: Standard S0);
+- Clicar em `Review + Create`;
+- Clique em `Store accounts`;
+- Clique em `Create` e preencha as informações (subscription, resource group, storage account name, region, perfomance e redundancy: locally-redundant storage (LRS));
+- Clique em `Review` e `Create`;
+
+Dentro do Storage account:
+- Acesse configuração;
+- Habilite o acesso por anônimos;
+- Clique em `salvar`.
+- Vá em `Data Storage` e Clique em `Containers` e em `+ Container`;
+- Adicione o nome do container;
+- Acesse o container criado e clique em `upload` e selecione os arquivos
+
+AI Search: 
+- Acesse o AI Search;
+- Clique em `Import data`;
+- Selecione onde estão os dados e o que gostaria de fazer com os dados;
+  
