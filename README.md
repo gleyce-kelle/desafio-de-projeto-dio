@@ -84,3 +84,34 @@ O serviço Azure AI Vision dá acesso à algoritmos avançados que processam ima
 - Acessar o portal do [Vision Studio](http://portal.vision.cognitive.azure.com);
 - Acessar `My resources`;
 - Selecionar o recurso que foi criado e clicar em `Select as default resource`.
+
+## Desafio de Projeto: Análise de Sentimentos com Language Studio no Azure AI
+
+O Language Studio é um conjunto de ferramentas baseadas em interface de usuário que permite explorar, criar e integrar recursos de Linaguem da IA do Azure aos aplicativos. 
+
+### Serviço de bot do Azure
+- Plataforma baseada em nuvem para desenvolvimento e gerenciamento de bots;
+- Integração com AI Language e outros serviços;
+- Conectividade atráves de vários canais.
+
+### Reconhecimento e síntese de fala
+- Use recursos de fala para texto do serviço **Fala** para transcrever fala audível em texto;
+- Use os recursos de conversão de texto em fala do **Serviço de Fala** para gerar fala audível a partir de texto.
+
+### Passo a Passo 1
+- Acesso o portal speech.microsoft.com;
+- Crie um novo recurso;
+- Acesse `Conversão de Fala em Texto em Tempo Real`;
+- Importe o áudio;
+- Configure as próximas etapas
+
+### Passo a Passo Language Studio
+- Acesse o dashboard do Azure;
+- Clique em `Create a resource` e em `Language Service`;
+- Clique em criar `Create` e preencha as informações (subscription, resource group, region, name, pricing tier);
+- Clique em `Review + Create`;
+- Acesse o portal [Language Studio](http://language.cognitive.azure.com)
+- Filtre pela aba `Classify text` e selecione `Analyze sentiment and mine opinions`;
+- Comece a realizar os testes com texto. 
+
+
