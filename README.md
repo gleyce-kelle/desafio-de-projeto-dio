@@ -41,7 +41,7 @@ Tudo que é possível ter em um ambiente on premise, é possível ter em um ambi
 
 - Acessar o dashboard do Microsoft Azure;
 - Clicar em `Criar um recurso` e pesquisar por Machine Learning;
-- Clicar em `Create` e preencher as informações necessárias (Subscription, resource group, name – que deve ser único –, region, stoarage account, key vault, application insights, container registry);
+- Clicar em `Create` e preencher as informações necessárias (subscription, resource group, name – que deve ser único –, region, stoarage account, key vault, application insights, container registry);
 - Clique em `Review + Create`;
 - Ao abrir o recurso, clique em `Launch Studio` que irá redirecionar para a página ml.azure.com;
 - Na barra lateral, ir na opção `ML automatizado` e clicar em `Novo trabalho de ML automatizado`;
@@ -59,3 +59,27 @@ Pontos de extremidade públicos e privados existem na conta de armazenamento do 
 - [Configurar pontos de extremidade de rede para acessar compartilhamentos de arquivos do Azure](https://learn.microsoft.com/pt-br/azure/storage/files/storage-files-networking-endpoints?tabs=azure-portal)
 - [Explore Azure AI Services](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/02-content-safety.html)
 - [Explore Automated Machine Learning in Azure Machine Learning](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01-machine-learning.html)
+
+## Desafio de Projeto: Reconhecimento Facial e transformação de imagens em Dados no Azure ML 
+
+O serviço Azure AI Vision dá acesso à algoritmos avançados que processam imagens e retornam informações com base nos recursos visuais. 
+
+| Serviço | Descrição |
+|---------|-----------|
+| Reconhecimento Óptico de Caracteres (OCR) | O serviço de Reconhecimento Óptico de Caracteres (OCR) extrai texto de imagens. |
+| Análise de Imagem | O serviço Image Analysis extrai muitos recursos visuais de imagens, como objetos, rostos, conteúdo adulto e descrições de texto geradas automaticamente. |
+| Face | O serviço Face fornece algoritmos de IA que detectam, reconhecem e analisam rostos humanos em imagens. |
+| Análise de Vídeo | A Análise de Vídeo inclui recursos relacionados a vídeo, como Análise Espacial e Recuperação de Vídeo. A Análise Espacial analisa a presença e o movimento de pessoas em um feed de vídeo e produz eventos aos quais outros sistemas podem responder. |
+*Fonte: Microsoft*
+
+
+#### Links úteis:
+- [What is Azure AI Vision?](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview)
+
+### Passo a passo
+- Acessar o dashboard do Microsoft Azure;
+- Clicar em `Criar um recurso` e pesquisar por Azure AI Services;
+- Clicar em `Create` e preencher as informações necessárias (subscription, resource group, region, name, pricing tier);
+- Clicar em `Review + Create`;
+- Acessar o portal do [Vision Studio](http://portal.vision.cognitive.azure.com)
+- Acessar `My resources`
