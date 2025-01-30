@@ -114,7 +114,7 @@ O Language Studio é um conjunto de ferramentas baseadas em interface de usuári
 - Filtre pela aba `Classify text` e selecione `Analyze sentiment and mine opinions`;
 - Comece a realizar os testes com texto. 
 
-## Desafio de Código: Azure Cognitive Search: Utilizando AI Search para indexação e consulta de dados 
+## Desafio de Projeto: Azure Cognitive Search: Utilizando AI Search para indexação e consulta de dados 
 Mineração de conhecimento: encontra insights em escala, como palavras-chave, frases-chave etc.;
 O Azure Cognitive Search é a plataforma de mineração de conhecimento alimentada por IA do Azure;
 
@@ -159,3 +159,19 @@ AI Search:
 - Clique em `Import data`;
 - Selecione onde estão os dados e o que gostaria de fazer com os dados;
   
+## Desafio de Projeto: Explorando Os Recursos de IA Generativa com Copilot e OpenAI
+
+As quatro fases do processo para desenvolver e implemntar um plano de IA responsável são:
+- Identificar possíveis danos relevantes para a solução planejada;
+- Medir a presença desses danos nas saídas geradas pela solução;
+- Mitigar os danos em várias camadas em sua solução para minimizar a presença e impacto deles; e
+- Operar a solução com responsabilidade, definindo e seguindo um plano de implantação e de preparação operacional.
+
+### Microsoft Copilot 
+
+Para acessar o Azure OpenAI é necessário solicitar acesso ao serviço, para que seja liberado para a sua assinatura. 
+
+#### Links úteis:
+- [Explore generative AI with Microsoft Copilot](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/12-generative-ai.html)
+- [Explore Azure OpenAI](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/13-azure-openai.html)
+- [Explore content filters in Azure OpenAI](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/14-azure-openai-content-filters.html)
